@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Mail, Github, Linkedin, Send, MapPin, Phone } from "lucide-react";
+import { Mail, Github, Linkedin, Send, MapPin } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
@@ -26,12 +26,7 @@ const socialLinks = [
     href: "https://www.linkedin.com/in/karina-kc-b522b035b/",
     label: "linkedin.com/in/karina-kc",
   },
-  {
-    name: "Phone",
-    icon: Phone,
-    href: "tel:+9779765423356",
-    label: "+977 9765423356",
-  },
+
 ];
 
 const ContactSection = () => {
@@ -181,7 +176,7 @@ const ContactSection = () => {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    rows={8}
+                    rows={7}
                     className="bg-secondary/50 border-border focus:border-primary resize-none"
                   />
                 </div>
