@@ -1,53 +1,199 @@
-# Welcome to your Lovable project
+# Karina KC - Web Developer Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a BCA student and Frontend Web Developer.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🌐 Live Demo
 
-## How can I edit this code?
+Visit the live portfolio: [karina-portfolio.com](https://your-portfolio-url.com)
 
-There are several ways of editing your application.
+## 📋 About
 
-**Use Lovable**
+Welcome to my digital portfolio! I'm Karina KC, a passionate BCA student and frontend web developer from Nepal. I specialize in building beautiful, responsive web experiences using modern technologies like React, JavaScript, and the MERN stack.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This portfolio showcases my projects, education, technical skills, and provides an easy way to get in touch.
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI** - Built with Tailwind CSS and shadcn/ui components
+- **Multiple Sections**:
+  - Hero Section with dynamic greeting
+  - About Me
+  - Education Timeline
+  - Technical Skills
+  - Project Showcase
+  - Contact Section
+  - Footer with social links
+- **Fast Performance** - Optimized with Vite build tool
+- **Type Safe** - Built with TypeScript
+- **SEO Optimized** - Meta tags and Open Graph support
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend Framework**: React 18+ with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Testing**: Vitest
+- **Linting**: ESLint
 
-Follow these steps:
+## 📥 Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Prerequisites
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Node.js 16+ 
+- npm 7+ or yarn
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Setup Instructions
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# Clone the repository
+git clone https://github.com/karinakc/Portfolio.git
+
+# Navigate to the project directory
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📚 Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/           # React components
+│   ├── AboutSection.tsx
+│   ├── ContactSection.tsx
+│   ├── EducationSection.tsx
+│   ├── Footer.tsx
+│   ├── HeroSection.tsx
+│   ├── Navbar.tsx
+│   ├── ProjectsSection.tsx
+│   ├── SkillsSection.tsx
+│   └── ui/              # shadcn/ui components
+├── pages/               # Page components
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+├── App.tsx              # Main app component
+├── main.tsx             # App entry point
+└── index.css            # Global styles
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
+## 🚀 Available Scripts
+
+```bash
+# Development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview the production build locally
+npm run preview
+
+# Run tests
+npm run test
+
+# Run tests in watch mode
+npm test:watch
+
+# Lint code
+npm run lint
+
+# Format code
+npm run format
+```
+
+## 📁 Public Assets
+
+The `public/` directory contains:
+- Logo and favicon
+- Portfolio images
+- Design project showcase images
+- Design guidelines (README)
+
+## 🎨 Customization
+
+### Environment Variables
+
+Create a `.env` file based on `.env.example`:
+
+```bash
+# Copy the example file
+cp .env.example .env
+
+# Edit as needed for your configuration
+```
+
+### Update Content
+
+- **Hero Section**: Modify [src/components/HeroSection.tsx](src/components/HeroSection.tsx)
+- **About**: Edit [src/components/AboutSection.tsx](src/components/AboutSection.tsx)
+- **Skills**: Update [src/components/SkillsSection.tsx](src/components/SkillsSection.tsx)
+- **Projects**: Modify [src/components/ProjectsSection.tsx](src/components/ProjectsSection.tsx)
+- **Contact**: Edit [src/components/ContactSection.tsx](src/components/ContactSection.tsx)
+
+### Styling
+
+Tailwind CSS configuration is in [tailwind.config.ts](tailwind.config.ts). The project uses custom color schemes and responsive utilities.
+
+## 🧪 Testing
+
+Run the test suite:
+
+```bash
+npm run test
+```
+
+Tests are located in `src/test/` using Vitest.
+
+## 🚢 Deployment
+
+### Deploy to Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import the repository in [Vercel](https://vercel.com)
+3. Configure environment variables if needed
+4. Deploy!
+
+### Deploy to Other Platforms
+
+The project can be deployed to any static hosting platform:
+- Netlify
+- GitHub Pages
+- Firebase Hosting
+- AWS S3 + CloudFront
+
+Build command: `npm run build`
+Output directory: `dist/`
+
+## 📧 Contact
+
+- **Email**: your-email@example.com
+- **LinkedIn**: [linkedin.com/in/karinakc](https://linkedin.com/in/karinakc)
+- **GitHub**: [@karinakc](https://github.com/karinakc)
+- **Twitter**: [@karinakc](https://twitter.com/karinakc)
+
+## 📝 License
+
+This project is open source and available under the MIT License - see the LICENSE file for details.
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit pull requests for any improvements!
+
+## 🙋‍♀️ Support
+
+If you have any questions or feedback, please reach out through the contact section on the portfolio or email me directly.
+
+---
+
+**Built with ❤️ by Karina KC**
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
