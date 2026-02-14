@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 ## 🌐 Live Demo
 
-Visit the live portfolio: [karina-portfolio.com](https://your-portfolio-url.com)
+Visit the live portfolio: (https://karina-portfolio-nine.vercel.app/)
 
 ## 📋 About
 
@@ -138,19 +138,6 @@ cp .env.example .env
 - **Projects**: Modify [src/components/ProjectsSection.tsx](src/components/ProjectsSection.tsx)
 - **Contact**: Edit [src/components/ContactSection.tsx](src/components/ContactSection.tsx)
 
-### Styling
-
-Tailwind CSS configuration is in [tailwind.config.ts](tailwind.config.ts). The project uses custom color schemes and responsive utilities.
-
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-npm run test
-```
-
-Tests are located in `src/test/` using Vitest.
 
 ## 🚢 Deployment
 
@@ -172,29 +159,6 @@ The project can be deployed to any static hosting platform:
 Build command: `npm run build`
 Output directory: `dist/`
 
-## 📧 Contact
-
-- **Email**: your-email@example.com
-- **LinkedIn**: [linkedin.com/in/karinakc](https://linkedin.com/in/karinakc)
-- **GitHub**: [@karinakc](https://github.com/karinakc)
-- **Twitter**: [@karinakc](https://twitter.com/karinakc)
-
-## 📝 License
-
-This project is open source and available under the MIT License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-Feel free to fork this repository and submit pull requests for any improvements!
-
-## 🙋‍♀️ Support
-
-If you have any questions or feedback, please reach out through the contact section on the portfolio or email me directly.
-
----
-
-**Built with ❤️ by Karina KC**
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
 
@@ -206,14 +170,4 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
