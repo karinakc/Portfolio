@@ -66,7 +66,9 @@ const HeroSection = () => {
               <a href="#projects">View Projects</a>
             </Button>
             <Button variant="heroOutline" size="lg" asChild>
-              <a href="#contact">Contact Me</a>
+              <a href="/KarinaKc CV.pdf" download="Karina_CV.pdf">
+                Download CV
+              </a>
             </Button>
           </motion.div>
 
